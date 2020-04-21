@@ -1,0 +1,4 @@
+﻿user@example.com
+admin@example.com
+Inbox Unavailable
+The network administrator has disabled mail from downloading into this local mailbox, please use a web browser to access your Inbox.
