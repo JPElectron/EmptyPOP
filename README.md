@@ -1,4 +1,5 @@
 # EmptyPOP
+
 Delivers only 1 email (or none) from any POP request, regardless of user credentials.
 
 Perhaps you have a [legacy] application...
@@ -34,13 +35,13 @@ Tested on Windows XP, Server 2003, Vista, Server 2008, Windows 7
 
 This program runs as a service; without any GUI, taskbar, or system tray icon.
 
-<b>Installation:</b>
+## Installation
 
 1) Ensure the Microsoft .NET Framework 4.x is installed
 2) Run emptypop-setup.msi and follow the wizard
 3) Modify C:\EMPTYPOP\settings.ini as indicated (see comments within the file)
 
-<b>Usage:</b>
+## Usage
 
 - How can I make my own SSL Certificate so SECUREPORT= will work?
 
@@ -90,3 +91,13 @@ This program runs as a service; without any GUI, taskbar, or system tray icon.
       Configure ^pop\. and ^pop3\. (or simply pop.gmail.com if that's the only POP3 service you're interested in blocking) as blocked keywords for DNS Redirector.
       Configure an SSL Cert for EmptyPOP (instructions above).
       Anyone trying to configure an email client with a POP3 server (at either port 110 or SSL port 995) will get one message (or none) served by EmptyPOP. You might use this one message to inform users on how to configure IMAP instead, or provide a link to visit webmail.
+
+## License
+
+GPL does not allow you to link GPL-licensed components with other proprietary software (unless you publish as GPL too).
+
+GPL does not allow you to modify the GPL code and make the changes proprietary, so you cannot use GPL code in your non-GPL projects.
+
+If you wish to integrate this software into your commercial software package, or you are a corporate entity with more than 10 employees, then you should obtain a per-instance license, or a site-wide license, from http://jpelectron.com/buy
+
+[End of Line]
